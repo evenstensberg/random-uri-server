@@ -1,0 +1,16 @@
+{
+  "name": "random-uri-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
