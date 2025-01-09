@@ -27,7 +27,7 @@ app.use(get_timestamp);
 
 app.get("/random", async(request, response) => {
   response.json({
-    image: await generate_base64("https://picsum.photos/200/300")
+    image: `data:image/png;base64,${await generate_base64("https://picsum.photos/200/300")}`
   });
 });
 
